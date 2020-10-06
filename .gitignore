@@ -1,0 +1,9 @@
+__pycache__
+.vscode
+keys.txt
+tweets_open.csv
+extracted_data.csv
+twitterJSA_data.csv
+twitterJSA_data.json
+twitterJSA_data.pickle
+final_data.csv
