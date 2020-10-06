@@ -17,10 +17,10 @@ def getTweets(tweetIds):
 
 
 # example
-CK = 'qLkAe6ah4y7SmAMZ52cypxjRd' # Consumer Key
-CS = '6yOLEKQjbgwYLymxQjUs5po7TIl1NFwf1fPl7ViI78qUy5UTjV' # Consumer Secret
-AT = '1310841057031016450-cQmvDuYFsQnqBPfYi9WISA9O4C9DD7' # Access Token
-AS = 'uife0pioYknbHGRnpuPVljVjfLms1M6JlYw9fdvu3TSax' # Access Token Secert
+CK = 'xxx' # Consumer Key
+CS = 'xxx' # Consumer Secret
+AT = 'xxx' # Access Token
+AS = 'xxx' # Access Token Secert
 
 session = OAuth1Session(CK, CS, AT, AS)
 
