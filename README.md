@@ -1,10 +1,8 @@
 # Twitter日本語評判分析データセットからツイートを取得，抽出
 
-http://bigdata.naist.jp/~ysuzuki/data/twitter/
-上記サイトにて配布されているデータセット(Twitter日本語評判分析データセット)のうち，2つ以上の項目が1となっているデータ，Tweet内容が取得できないデータを除き，csvファイルとして取得するためのコードです．
+[Twitter日本語評判分析データセット](http://bigdata.naist.jp/~ysuzuki/data/twitter/)にて配布されているデータセットのうち，2つ以上の項目が1となっているデータ，Tweet内容が取得できないデータを除き，csvファイルとして取得するためのコードです．
 
-https://github.com/tatHi/tweet_extructor/
-100ツイートを一度に取得する方法に関しては、上記レポジトリを参考にさせていただきました．
+100ツイートを一度に取得する方法に関しては、[Twitter日本語評判分析データセットのためのツイートダウンローダ](https://github.com/tatHi/tweet_extructor/)を参考にさせていただきました．
 
 <br>
 
@@ -12,13 +10,11 @@ https://github.com/tatHi/tweet_extructor/
 
 ### データセットCSVのダウンロード
 
-http://bigdata.naist.jp/~ysuzuki/data/twitter/
-上記サイトにて配布されているtweets_open.csvファイルをダウンロード．
+[Twitter日本語評判分析データセット](http://bigdata.naist.jp/~ysuzuki/data/twitter/)にて配布されているtweets_open.csvファイルをダウンロード．
 
 ### TwitterAPPの登録
-twitterAPIを用いるため，適当なアプリをtwitter appに登録し，
-API Key, API Key Secret, Access Token, Access Token Secretを取得してください．
-https://apps.twitter.com/
+[twitterAPI](https://apps.twitter.com/)を用いるため，適当なアプリをtwitter appに登録し，
+API Key, API Key Secret, Access Token, Access Token Secretを取得してください．<br>
 
 取得したキーはget_tweets.py内の以下のxxxに書き込んでください．
 
